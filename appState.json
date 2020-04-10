@@ -12,7 +12,7 @@
         "filePath": "ne.js",
         "cursor": {
           "lineNumber": 1,
-          "column": 1
+          "column": 49
         },
         "config": {
           "runtime": "nodejs8",
@@ -102,7 +102,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586503194254
+    "lastSave": 1586505044195
   },
   "VCS_STATE": {
     "provider": "GitHub",
