@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "55d78c04-fb41-4d15-b650-023c727a09f3": {
+        "id": "55d78c04-fb41-4d15-b650-023c727a09f3",
+        "parent": null,
+        "name": "ne.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ne.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "ne",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "5985a3e8-112e-4a2f-a9c6-165a4eef1973": {
+        "id": "5985a3e8-112e-4a2f-a9c6-165a4eef1973",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "ecfcaf34-d6bb-451a-bf25-557d5b66a2e7": {
+        "id": "ecfcaf34-d6bb-451a-bf25-557d5b66a2e7",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "66447198-3d18-488e-9906-8fca2569896c": {
+        "id": "66447198-3d18-488e-9906-8fca2569896c",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "55d78c04-fb41-4d15-b650-023c727a09f3"
+    ],
+    "currentFileId": "55d78c04-fb41-4d15-b650-023c727a09f3",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "datastore": {
+        "name": "datastore",
+        "type": "CloudDatastore",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ne",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-east2",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586503194254
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ne",
+      "url": "https://github.com/Kumudikatest/ne"
+    }
+  }
+}
